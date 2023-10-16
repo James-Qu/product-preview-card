@@ -22,23 +22,26 @@ body {
   height: 30rem;
   margin: 0 auto;
   margin-top: 10rem;
+  background-color: whitesmoke;
 }
 
 .img-container {
-  width: 50%;
-  height: auto;
   border: 5px;
   border-style: solid;
+  height: 100%;
 }
 
 .row{
   border: 5px;
   border-style: solid;
+  height: 30rem;
+  width: 60rem;
 }
 
 #product-img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   border-top-left-radius: var(--img-border-radius);
   border-bottom-left-radius: var(--img-border-radius);
 }
