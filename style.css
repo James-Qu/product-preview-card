@@ -27,17 +27,15 @@ body {
   margin: 0 auto;
   margin-top: 10rem;
   background-color: whitesmoke;
+  border-top-right-radius: var(--img-border-radius);
+  border-bottom-right-radius: var(--img-border-radius);
 }
 
 .img-container {
-  border: 5px;
-  border-style: solid;
   height: 100%;
 }
 
 .row{
-  border: 5px;
-  border-style: solid;
   height: 100%;
   width: 100%;
 }
@@ -67,9 +65,21 @@ body {
 
 .price {
   font-size: x-large;
+  font: 2rem 'Fraunces';
+  color: var(--dark-cyan-color);
+  display: inline;
+}
+
+span {
+  font: 0.8rem 'Montserrat';
+  color: var(--dark-grayish-blue-color);
 }
 
 .btn {
   width: 90%;
   height: 10%;
+}
+
+#btn-text {
+  font: 1rem 'Montserrat';
 }
