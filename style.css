@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  width: 60rem;
+  width: 40rem;
   height: 30rem;
   margin: 0 auto;
   margin-top: 10rem;
@@ -38,8 +38,8 @@ body {
 .row{
   border: 5px;
   border-style: solid;
-  height: 30rem;
-  width: 60rem;
+  height: 100%;
+  width: 100%;
 }
 
 #product-img {
@@ -51,7 +51,9 @@ body {
 }
 
 .category {
-  font: 1rem 'Montserrat';
+  font: 1.3rem 'Montserrat';
+  letter-spacing: 2px;
+  color: var(--secondary-color)
 }
 
 .title {
@@ -60,8 +62,14 @@ body {
 
 .description {
   font: 1rem 'Montserrat';
+  color: var(--dark-grayish-blue-color)
 }
 
 .price {
   font-size: x-large;
+}
+
+.btn {
+  width: 90%;
+  height: 10%;
 }
